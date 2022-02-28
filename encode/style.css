@@ -1,0 +1,158 @@
+
+
+body{
+     background: url(Electricity.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+   width: 100% auto;
+   margin: 0;
+   min-height: 100vh;
+transition: .5s;
+    text-align: center;
+    height:100%;
+}
+.logo{
+    width: 100px;
+     border-radius: 50%;
+     margin-bottom: 10px;
+     
+}
+h1{
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+h4{
+    color:white;
+  text-shadow: 2px 2px 4px #000000;
+    font-size: 18px;
+}
+form {
+    background-color:sandybrown;
+    border: 20px solid chocolate;
+    width: 400px;
+    display: inline-block;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    margin-top: 65px;
+    height: 370px;
+   font-size: 17px;
+    font-weight: bolder;
+    overflow: hidden;
+   transition: 1.0s;
+}
+input{
+    border-radius: 10px;
+    border: 3px solid black;
+    box-shadow: 2px 2px 4px black;
+    height:20px;
+  }
+  
+  label {
+   padding: 10px 0px;
+  margin-right: 10px;
+    display: inline-block;
+ 
+  }
+  button{
+      border-radius:5px;
+     font-size:  16px;
+     color: white;
+     background-color: green;
+  
+  }
+  button:hover{
+    transform: scale(0.9);
+   
+
+  }
+  p{
+      font-weight: bolder;
+      font-size: x-large;
+    bottom: 0;
+    top: 0;
+  }
+  .btncontainer{
+    height: 40px;
+  position:absolute;
+margin-top: 40px;
+    width: 400px;
+    align-self: center;
+    display: inline-block;
+    border-bottom-left-radius: 50px;
+    box-shadow: 2px 2px 4px black;
+    border-radius: 5px;
+    border-top: 10px solid chocolate;
+    border-left: 20px solid chocolate;
+    border-right: 20px solid chocolate;
+    background-color:white;
+    transition:0.5s;
+  }
+  #english1{
+     
+      width: 195px;
+      height: 30px;
+  margin-top: 5px;
+      background-color: black;
+      
+  }
+  #english2{
+   width:195px;
+ height: 30px;
+ margin-top: 5px;
+ background-color:black;
+  }
+
+  @media (max-width:439px){
+   form{
+     width: 70%;
+     height: 460px;
+   }
+   .btncontainer{
+     width:70%;
+   }
+   #english2{
+      width: 100px;
+   }
+   
+   #english1{
+    width: 100px;
+  }
+
+   }
+
+
+   @media (max-width:392px){
+    .holder{
+      font-size: 10px;
+    }
+    }
+   
+  @media (max-width:363px){
+  form{
+    height: 490px;
+  }
+  .know{
+    font-size: 13px;
+  }
+  }
+
+  
+  @media (max-width:292px){
+    
+   #english2{
+    width: 80px;
+    
+ }
+ 
+ #english1{
+  width: 80px;
+
+}
+   
+    }
+
+    ::selection{
+      color: red;
+      background-color: aqua;
+    }

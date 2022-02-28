@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    ,<script type="text/javascript"  src="value.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+</head>
+<body>
+  
+<div id="header">
+    <h1>TNEB Tarrif Calculator</h1>
+</div>
+<div id="logo">
+    <img  class="logo" src="thumb.jpg"/>
+</div>
+<div class="btncontainer">
+    <button type="btn" id="english1" class="lang" onclick="english()" >English</button>
+    <button type="btn" id="english2" class="lang" onclick="tamil()">தமிழில்</button>
+</div>
+<form id="form">
+  
+    <div id="main">
+        <div>
+            <label style="margin-top: 10px;">Enter the Units</label> <input type="number" id="unit" placeholder=" Enter The Unit"/>
+              <button type="button" id="btns"  onclick="clicks()" >Submit!</button>
+        </div>
+        <div><p id="demo">0</p></div>
+<h4 class="know">If You Don't know Units Type Reading Below</h4>
+
+<div>
+    <label >Enter the New Reading</label> 
+    <input type="number" id="new" placeholder=" Enter in kwh"><br>
+    <label>Enter the Old Reading</label> 
+    <input type="number" id="old" placeholder=" Enter in kwh">
+    <button type="button" id="btns" onclick="reading()" style="margin-top: 10px;">Submit!</button>
+    
+ </div>
+ <div><p id="democracy" style="margin-top: 35px;">0</p></div>
+ </div>
+
+<!------------------another tamil form-->
+
+<div id="main1">
+    <div>
+        <label>அலகுகளை உள்ளிடவும்</label> <input type="number" id="unit1" placeholder=" அலகு"/>
+          <button type="button" id="btns" style="margin-left: 10px;"  onclick="clickss()" >சமர்ப்பிக்க !</button>
+    </div>
+    <div><p id="demo1">0</p></div>
+<h4 class="holder">அலகுகள் உங்களுக்குத்  தெரியாவிட்டால் கீழே இதைப் பயன்படுத்தவும்</h4>
+
+<div>
+<label >புதிய மதிப்பை உள்ளிடவும்</label> 
+<input type="number" id="new1" placeholder=" kwh இல்"><br>
+<label>பழைய மதிப்பை உள்ளிடவும்</label> 
+<input type="number" id="old1" placeholder=" kwh இல்"><br>
+<button type="button" id="btns" class="holder" onclick="reading1()" style="margin-top: 10px;">சமர்ப்பிக்க !</button>
+
+</div>
+<div><p id="democracy1">0</p></div>
+</div>
+
+
+ 
+</form>
+
+
+
+
+</body>
+</html>
